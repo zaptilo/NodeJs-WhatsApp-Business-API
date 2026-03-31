@@ -1,8 +1,8 @@
 # Zaptilo WhatsApp Business API - Node.js SDK (RAW)
 
-## 🚀 Overview
+## Overview
 
-This is a **RAW Node.js SDK** for sending WhatsApp template messages using Zaptilo API.
+This is a **RAW Node.js SDK** for sending WhatsApp template messages using Zaptilo (https://zaptilo.ai) API.
 
 * Fully dynamic
 * No abstraction layer
@@ -11,7 +11,7 @@ This is a **RAW Node.js SDK** for sending WhatsApp template messages using Zapti
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/zaptilo/NodeJs-WhatsApp-Business-API.git
@@ -35,7 +35,7 @@ AUTH_TOKEN=your_token_here
 
 ---
 
-## 📌 Usage
+## Usage
 
 ### 1. Send Template Message (RAW)
 
@@ -56,7 +56,7 @@ async function sendMessage(payload) {
 
 ---
 
-### 📥 Example Payload Structure
+### Example Payload Structure
 
 ```json
 {
@@ -115,7 +115,7 @@ app.listen(3000);
 
 ---
 
-## 📌 Fetch Templates
+## Fetch Templates
 
 ```js
 const { getTemplates } = require('./src/whatsapp');
@@ -143,7 +143,7 @@ fetchTemplates();
 
 ---
 
-## 🏗️ Design Philosophy
+## Design Philosophy
 
 This SDK is intentionally **RAW**:
 * No abstraction
