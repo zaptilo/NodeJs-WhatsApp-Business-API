@@ -1,13 +1,23 @@
 {
-  "name": "zaptilo-whatsapp-sdk",
+  "name": "zaptilo-whatsapp",
   "version": "1.0.0",
-  "description": "Zaptilo WhatsApp Business API SDK (RAW mode)",
+  "description": "Zaptilo WhatsApp Business API SDK (RAW)",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": ["whatsapp", "api", "zaptilo", "sdk"],
+  "type": "commonjs",
+  "keywords": [
+    "whatsapp",
+    "api",
+    "zaptilo",
+    "sdk",
+    "whatsapp-business"
+  ],
+  "author": "Zaptilo",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaptilo/NodeJs-WhatsApp-Business-API.git"
+  },
+  "homepage": "https://github.com/zaptilo/NodeJs-WhatsApp-Business-API#readme",
   "dependencies": {
     "axios": "^1.6.0",
     "dotenv": "^16.0.0"
