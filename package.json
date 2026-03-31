@@ -1,6 +1,6 @@
 {
   "name": "zaptilo-whatsapp",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Zaptilo WhatsApp Business API SDK (RAW)",
   "main": "index.js",
   "type": "commonjs",
